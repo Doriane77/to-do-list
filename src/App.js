@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Section from "./Components/Section/Section";
 
 function App() {
+  const [listes, setListes] = useState([
+    { title: "Faire les courses", status: false },
+    { title: "Aroser les plantes", status: false },
+  ]);
+  const [text, setText] = useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="box-app">
+      <Header />
+      <div className="contenu">
+        <Section
+          listes={listes}
+          setListes={setListes}
+          text={text}
+          setText={setText}
+        />
+      </div>
+      <Footer />
     </div>
   );
 }

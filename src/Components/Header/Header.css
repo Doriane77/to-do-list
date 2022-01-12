@@ -1,0 +1,17 @@
+.Header {
+  /* background-color: lightseagreen; */
+  display: flex;
+  align-items: center;
+}
+.head-image {
+  width: 100px;
+}
+.head-image img {
+  width: 100%;
+  border-radius: 20px;
+  background-color: rebeccapurple;
+}
+h1 {
+  margin-left: 40px;
+  font-size: 40px;
+}

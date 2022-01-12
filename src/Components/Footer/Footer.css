@@ -1,0 +1,13 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: lightskyblue; */
+  height: 100px;
+}
+span {
+  font-weight: bold;
+}
+h2 {
+  color: rebeccapurple;
+}

@@ -1,0 +1,62 @@
+.Section {
+  /* background-color: rgb(180, 144, 129); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.listes {
+  min-width: 440px;
+  display: flex;
+  /* background-color: tomato; */
+  align-items: center;
+  justify-content: flex-start;
+}
+.listes > h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+.listes > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  border: none;
+}
+.listes > button img {
+  width: 15px;
+  filter: invert(100%);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+form {
+  /* background-color: turquoise; */
+  display: flex;
+  align-items: flex-end;
+}
+form > input {
+  border: none;
+  height: 35px;
+  min-width: 300px;
+  background-color: white;
+  border: rgb(182, 141, 223) 1px solid;
+  border-radius: 7px;
+  padding-left: 15px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+form > button {
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+  width: 90px;
+}
