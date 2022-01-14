@@ -26,7 +26,7 @@ function Section({ listes, setListes, text, setText }) {
                 setListes(newListes);
               }}
             >
-              <img src={sup} alt="" />
+              <img src={sup} alt="corbeille" />
             </button>
           </div>
         );
